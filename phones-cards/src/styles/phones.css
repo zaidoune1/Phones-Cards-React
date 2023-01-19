@@ -1,0 +1,130 @@
+.container {
+
+    text-align: center;
+    margin: 50px;
+
+}
+
+.first-title {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: rgba(0, 0, 0, 0.836);
+}
+
+.main-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.phone-details {
+    text-align: start;
+    width: 30%;
+}
+
+.imgs {
+    min-width: 100px;
+    height: 120px;
+}
+
+.arrow-btns {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.gg {
+    color: blue;
+}
+
+.arrow-btns:hover {
+    color: blue;
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: blueviolet;
+}
+.title, .price {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+.price {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.btn-remove {
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    cursor: pointer;
+    color: rgba(0, 0, 255, 0.758);
+}
+
+.bleu {
+    color: blue;
+}
+
+.refrech-btn {
+
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    width: 160px;
+    padding: 12px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    letter-spacing: 5px;
+    margin-top: 90px;
+}
+
+.refrech-btn:hover {
+    border: 1px solid black;
+    background-color: rgba(0, 128, 0, 0.53);
+}
+.btn-remove:hover {
+}
+
+.underline {
+    margin-top: 100px;
+    border-bottom: 1px solid black;
+}
+
+.totla {
+    text-align: start;
+    margin-top: 20px;
+}
+
+.remove-all {
+
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-color: rgba(255, 0, 0, 0.733);
+    padding: 20px;
+    color: red;
+    width: 300px;
+    margin-top: 70px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove-all:hover {
+    background-color: rgba(255, 0, 0, 0.21);
+}
